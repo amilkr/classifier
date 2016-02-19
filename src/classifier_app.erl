@@ -7,6 +7,7 @@
 
 -spec start() -> ok | {error, term()}.
 start() ->
+  elvis = elvis,    
   application:start(classifier).
 
 %% ===================================================================
